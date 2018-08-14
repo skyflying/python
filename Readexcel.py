@@ -1,5 +1,6 @@
 
 # -*- coding: utf-8 -*-
+
 import os
 import xlrd
 import glob
@@ -7,16 +8,26 @@ import xlwt
 from numpy import *
 import os
 import sys
+# 指定要列出所有檔案的目錄
+mypath = "D:\data"
 
-location = "E:/"
+# 遞迴列出所有子目錄與檔案
 fileList = []
-for fileName in glob.glob(location + "*.xlsx"):
+#for root, dirs, files in walk(mypath+ "*.xls"):
+  #print("路徑：", root)
+  #print("  目錄：", dirs)
+  #print("  檔案：", files)
+
+
+for fileName in glob.glob('D:\data\*\*.xls'):
      fileList.append(fileName)
-print("在目錄下下有%d個xlsx文件"%len(fileList))
-
-
+print("在目錄下下有%d個xls文件" %len(fileList))
+  
+  
 fileNum = len(fileList)
 matrix = [None] * fileNum
+
+
 for i in range(fileNum):
      fileName = fileList[i]
      workBook = xlrd.open_workbook(fileName)
@@ -43,4 +54,4 @@ for fileIndex in range(fileNum):
              sheet.write(rowIndex,colIndex,matrix[fileIndex][j][colIndex])
          rowIndex += 1
 print("已將%d個文件合併"%fileNum)
-fileName.save(location + date + ".xls")
+fileName.save(mypath + date + ".xls")
