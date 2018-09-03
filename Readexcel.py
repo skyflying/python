@@ -9,8 +9,7 @@ from numpy import *
 import os
 import sys
 import xdrlib
-
-
+import xlsxwriter
 
 
 def xls_merge(folder,header,filename):
@@ -47,5 +46,7 @@ def xls_merge(folder,header,filename):
      print("已完成%d個文檔的合併"%fileNum)
      fileName.close()
 	fileName.save(output)
- 
- xlsx_merge(file_location,header,output)
+
+#範例	
+header=["行政區","地段","地號","程式物判","使用分區","備註","公設","登記面積"]    
+xls_merge("D:/test/",header,"D:/test/test.xls")
