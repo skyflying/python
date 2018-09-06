@@ -44,8 +44,7 @@ def xls_merge(folder,header,filename):
                  sheet.write(rowIndex,colIndex,matrix[fileIndex][j][colIndex])
              rowIndex += 1
      print("已完成%d個文檔的合併"%fileNum)
-     fileName.close()
-	fileName.save(output)
+     fileName.save(filename)
 
 #範例	
 header=["行政區","地段","地號","程式物判","使用分區","備註","公設","登記面積"]    
