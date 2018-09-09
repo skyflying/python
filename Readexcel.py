@@ -34,13 +34,15 @@ for i in range(fileNum):
              matrix[i][j-1][k] = sheet.cell(j,k).value
 fileName = xlwt.Workbook()
 sheet = fileName.add_sheet("combine")
+
 for i in range(len(header)):
      sheet.write(0,i,header[i])
 rowIndex = 1
+
 for fileIndex in range(fileNum):
      for j in range(len(matrix[fileIndex])):
          for colIndex in range (len(matrix[fileIndex][j])):
              sheet.write(rowIndex,colIndex,matrix[fileIndex][j][colIndex])
          rowIndex += 1
 print("已將%d個文件合併"%fileNum)
-fileName.save(location + date + ".xls")
+fileName.save(location + date + ".xlsx")

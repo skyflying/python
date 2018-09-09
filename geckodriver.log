@@ -1,0 +1,535 @@
+1536396702131	geckodriver	INFO	geckodriver 0.21.0
+1536396702131	geckodriver	INFO	Listening on 127.0.0.1:13867
+1536396705178	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.ORyq67s8MDUz"
+1536396708055	Marionette	INFO	Listening on port 13875
+1536396708477	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536396708497	Marionette	DEBUG	[6442450945] Frame script loaded
+1536396708497	Marionette	DEBUG	[6442450945] Frame script registered
+1536396708531	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536396710092	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536396710303	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/photo.php?fbid=1955010511224732&set=a.360957523963380&type=3&theater
+1536396710642	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/photo.php?fbid=1955010511224732&set=a.360957523963380&type=3&theater
+1536396710644	Marionette	INFO	Stopped listening on port 13875
+1536396710665	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 14352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2856, Chrome_Chi[Parent 14352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource:///modules/ContentMetaHandler.jsm, line 156: NS_ERROR_ILLEGAL_VALUE: 
+[Child 14584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14584, Chrome_ChildThread] W[Parent 14352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11212, Chrome_ChildThread] WARNING: pipe econsole.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  Message: Error: Data is not ready.
+  Stack:
+    get data@resource://gre/modules/JSONFile.jsm:159:13
+getListeners@resource://gre/modules/PushBroadcastService.jsm:53:5
+observe@resource://gre/modules/AsyncShutdown.jsm:541:9
+
+[GPU 14276, Chrome_ChildThread] WARN
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536396767582	geckodriver	INFO	geckodriver 0.21.0
+1536396767582	geckodriver	INFO	Listening on 127.0.0.1:13908
+1536396770645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.iFUUBIl73WYr"
+1536396773473	Marionette	INFO	Listening on port 13916
+1536396773959	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536396773978	Marionette	DEBUG	[6442450945] Frame script loaded
+1536396773979	Marionette	DEBUG	[6442450945] Frame script registered
+1536396773990	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536396775542	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536396775739	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/photo.php?fbid=1955010511224732&set=a.360957523963380&type=3&theater
+1536396776109	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/photo.php?fbid=1955010511224732&set=a.360957523963380&type=3&theater
+1536396776113	Marionette	INFO	Stopped listening on port 13916
+1536396776143	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 9840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5204, Chrome_ChildThre[Parent 9840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13020, Chrome_ChildThrea[Parent 9840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14528, Chrome_ChildThread] W[GPU 14972, Chrome_ChildTh
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536396785617	geckodriver	INFO	geckodriver 0.21.0
+1536396785617	geckodriver	INFO	Listening on 127.0.0.1:13944
+1536396788727	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.VljzxxsXG0bt"
+1536396791625	Marionette	INFO	Listening on port 13952
+1536396792027	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536396792051	Marionette	DEBUG	[6442450945] Frame script loaded
+1536396792051	Marionette	DEBUG	[6442450945] Frame script registered
+1536396792064	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536396793444	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536396793918	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/photo.php?fbid=1955010511224732&set=a.360957523963380&type=3&theater
+1536396794383	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/photo.php?fbid=1955010511224732&set=a.360957523963380&type=3&theater
+[Parent 15104, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/bu[Parent 15104, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 15104, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 15104, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5280, Chrome_ChildThre1536396887052	Marionette	INFO	Stopped listening on port 13952
+[GPU 7092, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://ad.sitemaji.com/ysm_plurk.js, line 1: TypeError: r[o] is null
+1536396889560	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451036
+1536396889845	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.plurk.com/p/mxtqlj
+[Parent 6884, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6884, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[Child 1490
+8, Chrome_Ch[Child 4ildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14908, Chrome_ChildThread] WARNING: pipe error: 1[Parent 6884, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9784, Chrome_ChildThread] WARNING: 1536396905446	Marionette	INFO	Stopped listening on port 14068
+[GPU 16744, Chrome_ChildThre
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536398058257	geckodriver	INFO	geckodriver 0.21.0
+1536398058257	geckodriver	INFO	Listening on 127.0.0.1:14482
+1536398061320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.ig4XDuG5gf4i"
+1536398064157	Marionette	INFO	Listening on port 14490
+1536398064664	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536398064682	Marionette	DEBUG	[6442450945] Frame script loaded
+1536398064683	Marionette	DEBUG	[6442450945] Frame script registered
+1536398064758	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536398066340	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536398067549	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536398068922	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+[Parent 16164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11972, Chrome1536398161173	Marionette	INFO	Listening on port 14559
+1536398161505	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536398161523	Marionette	DEBUG	[6442450945] Frame script loaded
+1536398161524	Marionette	DEBUG	[6442450945] Frame script registered
+1536398161533	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536398163661	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536398164675	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536398166634	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+[Parent 10048, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13724, Chrome_ChildT[Parent 10048, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9040, Chrome_ChildThr[Child 8224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8224, Chrome_ChildThread] WARNING: 1536401879848	Marionette	INFO	Stopped listening on port 14559
+[GPU 4732, Chrome_ChildThread
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ww.facebook.com/Fund4Rich/videos/267834297120845/
+1536398212421	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 9924, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12864, Chrome_1536398319731	Marionette	INFO	Listening on port 14671
+1536398319880	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536398319898	Marionette	DEBUG	[6442450945] Frame script loaded
+1536398319898	Marionette	DEBUG	[6442450945] Frame script registered
+1536398319908	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536398322322	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536398323536	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536398324966	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536398327335	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536398327553	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 11532, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11532, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Child 14132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14132, Chrome_ChildThread] WARNING: pipe er[Parent 11532, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12476, Chrome_ChildT1536401880609	Marionette	INFO	Stopped listening on port 14671
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Loaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536398396800	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+[Parent 12948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17300, Chrome_Chil[Child 17204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17204, Chrome_ChildThread] WARNING:[Child 15536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15536, Chrome_ChildThread] 1536401882478	Marionette	INFO	Stopped listening on port 14724
+[GPU 1416, Chrome_ChildTh
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536398437332	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536398439641	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536398439859	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 16496, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12580, Chrome_ChildThread] [Parent 16496, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 16496, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4916, Chrome_ChildThread] WARNING: [Parent 16496, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13384, Chrome_Child1536401884174	Marionette	INFO	Stopped listening on port 14773
+[GPU 14908, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17432, Chrome_ChildThread] WARNING: p[Parent 1904, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7240, Chrome_Child1536398503906	Marionette	INFO	Stopped listening on port 14821
+[GPU 2084, Chrome_ChildThread] WARN
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536417894789	geckodriver	INFO	geckodriver 0.21.0
+1536417894795	geckodriver	INFO	Listening on 127.0.0.1:3552
+1536417897845	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.iL52iEnnqs2p"
+1536417900667	Marionette	INFO	Listening on port 3560
+1536417901056	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536417901075	Marionette	DEBUG	[6442450945] Frame script loaded
+1536417901076	Marionette	DEBUG	[6442450945] Frame script registered
+1536417901091	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536417902813	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536417904323	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536417905701	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536417907993	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+[Parent 16136, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/comm1536418252854	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.IGcB34N9Ip9e"
+1536418256429	Marionette	INFO	Listening on port 3640
+1536418256672	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536418256690	Marionette	DEBUG	[6442450945] Frame script loaded
+1536418256691	Marionette	DEBUG	[6442450945] Frame script registered
+1536418256700	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536418258665	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536418260078	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536418262624	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536418263925	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 11732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5240, Chrome_Ch1536418285239	Marionette	INFO	Listening on port 3689
+1536418285323	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536418285342	Marionette	DEBUG	[6442450945] Frame script loaded
+1536418285342	Marionette	DEBUG	[6442450945] Frame script registered
+1536418285351	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536418288150	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536418289593	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536418292189	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536418293452	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 7972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7972[Parent 12816, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8648, Chrome_ChildThread] [Parent 12816, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18064, Chrome_ChildThread1536418334605	Marionette	INFO	Stopped listening on port 3689
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536418427237	geckodriver	INFO	geckodriver 0.21.0
+1536418427242	geckodriver	INFO	Listening on 127.0.0.1:3740
+1536418430274	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.ZJfRc3s0GvHn"
+1536418433556	Marionette	INFO	Listening on port 3748
+1536418433593	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536418433612	Marionette	DEBUG	[6442450945] Frame script loaded
+1536418433616	Marionette	DEBUG	[6442450945] Frame script registered
+1536418433625	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536418434982	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536418436467	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536418437729	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+[Parent 10464, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/comm1536418457676	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.2LNkca8R2nBZ"
+1536418461053	Marionette	INFO	Listening on port 3796
+1536418461501	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536418461524	Marionette	DEBUG	[6442450945] Frame script loaded
+1536418461524	Marionette	DEBUG	[6442450945] Frame script registered
+1536418461533	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536418463816	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536418465214	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536418466617	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+[Parent 2212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5272, Chrome_C[Child 3608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3608, Chrome[Parent 2212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1268, Chrome_ChildThread] WARNING: pipe er1536418480734	Marionette	INFO	Stopped listening on port 3796
+[GPU 15960, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536418494534	geckodriver	INFO	geckodriver 0.21.0
+1536418494539	geckodriver	INFO	Listening on 127.0.0.1:3832
+1536418497569	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.TVotntlDEjYf"
+1536418500816	Marionette	INFO	Listening on port 3840
+1536418500885	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536418500903	Marionette	DEBUG	[6442450945] Frame script loaded
+1536418500904	Marionette	DEBUG	[6442450945] Frame script registered
+1536418500911	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536418502200	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536418503586	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536418505141	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536418507449	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 17664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17664, Chrome_ChildT[Parent 2288, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2288, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4612, Chrome_ChildThread1536418785135	Marionette	INFO	Stopped listening on port 3840
+[GPU 17388, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536418632144	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536418634428	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 17076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17076, Chrome_ChildThread] WARNI[Child 8580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8580, Chrome_ChildThread] WARNING: pipe error: 109: file z:[Parent 17308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3052, Chrome_ChildThread] WARNING: pipe1536418785420	Marionette	INFO	Stopped listening on port 3895
+[GPU 14944, Chrome_ChildThread] WARNING:
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+0421	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536418782711	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 436, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5956, Chrome_[Parent 436, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 900[Parent 436, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18384, Chrome_ChildThread] WARNING: pipe error: 109: 1536419173385	Marionette	INFO	Stopped listening on port 3949
+[GPU 7280, Chrome_ChildTh
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+show for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536418865867	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 16836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16836, Chrome_ChildThread] WARNING:[Parent 16540, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 892, Chrome_ChildThread] WARNING: [Parent 16540, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14172, Chrome_ChildThr1536418873161	Marionette	INFO	Stopped listening on port 4008
+[GPU 10456, Chrome_ChildTh
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536419167618	geckodriver	INFO	geckodriver 0.21.0
+1536419167624	geckodriver	INFO	Listening on 127.0.0.1:4100
+1536419170655	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.y73ciVRTCP6u"
+1536419174187	Marionette	INFO	Listening on port 4108
+1536419174471	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536419174491	Marionette	DEBUG	[6442450945] Frame script loaded
+1536419174491	Marionette	DEBUG	[6442450945] Frame script registered
+1536419174499	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536419175890	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536419177391	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536419179921	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536419181682	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 12164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12164, Chrome_ChildThread] WARNING: [Parent 17516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11604, Chrome_ChildThread] WARNING: pipe error:[Parent 17516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7524, Chrome_Chil1536420253872	Marionette	INFO	Stopped listening on port 4108
+[GPU 11436, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+k.com/Fund4Rich/videos/267834297120845/
+[Parent 17880, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7816, Chrome_ChildThread] WARNING: pipe err[Parent 17880, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6192, Chrome_ChildTh1536419236732	Marionette	INFO	Stopped listening on port 4159
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536419238910	geckodriver	INFO	geckodriver 0.21.0
+1536419238915	geckodriver	INFO	Listening on 127.0.0.1:4200
+1536419241959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.up2pAgGWHtI5"
+1536419244767	Marionette	INFO	Listening on port 4208
+1536419245171	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536419245189	Marionette	DEBUG	[6442450945] Frame script loaded
+1536419245190	Marionette	DEBUG	[6442450945] Frame script registered
+1536419245203	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536419246958	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536419248268	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536419249877	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536419252159	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 2100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2100, Chrome_ChildT[Parent 16976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15436, Chrome_ChildThre[Parent 16976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10208, Chrome_ChildThread] WARNING: 1536419287389	Marionette	INFO	Stopped listening on port 4208
+[GPU 1208, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536419911161	geckodriver	INFO	geckodriver 0.21.0
+1536419911166	geckodriver	INFO	Listening on 127.0.0.1:4356
+1536419914203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.TrHunFckSd5X"
+1536419917114	Marionette	INFO	Listening on port 4365
+1536419917419	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536419917437	Marionette	DEBUG	[6442450945] Frame script loaded
+1536419917438	Marionette	DEBUG	[6442450945] Frame script registered
+1536419917445	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536419919005	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536419921275	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536419922510	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+[Child 12248, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 12248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chr[Child 13808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13808, Chrome_ChiJavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 589: TypeError: this.tablesData[table] is undefined
+[Parent 18016, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9488, Chrome_ChildThread] WARNING: pi1536419924306	Marionette	INFO	Stopped listening on port 4365
+[GPU 16652, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536419927680	geckodriver	INFO	geckodriver 0.21.0
+1536419927685	geckodriver	INFO	Listening on 127.0.0.1:4406
+1536419930730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.KaQUzCumsL8p"
+1536419933342	Marionette	INFO	Listening on port 4414
+1536419933558	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536419933577	Marionette	DEBUG	[6442450945] Frame script loaded
+1536419933578	Marionette	DEBUG	[6442450945] Frame script registered
+1536419933590	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536419935121	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536419937043	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536419939890	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536419941154	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 16164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10312, Chrome_ChildThread] WARNING: pipe error: [Parent 16164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17280, Chrome_ChildThread] WARNING: pipe err[Parent 16164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5020, Chrome_ChildThread] WARNI1536419975454	Marionette	INFO	Stopped listening on port 4414
+[GPU 13144, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536420000278	geckodriver	INFO	geckodriver 0.21.0
+1536420000284	geckodriver	INFO	Listening on 127.0.0.1:4448
+1536420003317	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.USC3WEbdVtlr"
+1536420006445	Marionette	INFO	Listening on port 4456
+1536420006530	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536420006554	Marionette	DEBUG	[6442450945] Frame script loaded
+1536420006555	Marionette	DEBUG	[6442450945] Frame script registered
+1536420006567	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536420008070	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536420010682	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536420014414	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536420015676	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 2100, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16128, Chrome_ChildThread] WARNING: pipe error[Parent 2100, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1176, Chrome_ChildThread] WARNING: pip1536420025587	Marionette	INFO	Stopped listening on port 4456
+[GPU 16984, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536420065664	geckodriver	INFO	geckodriver 0.21.0
+1536420065669	geckodriver	INFO	Listening on 127.0.0.1:4501
+1536420068713	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.qVHgBXFSV6Of"
+1536420071803	Marionette	INFO	Listening on port 4509
+1536420071931	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536420071949	Marionette	DEBUG	[6442450945] Frame script loaded
+1536420071951	Marionette	DEBUG	[6442450945] Frame script registered
+1536420071959	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536420073527	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536420075070	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536420076204	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536420079018	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 1296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3376, Chrome_Ch[Parent 1296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16868, Chrome_ChildThread] WARNING: pipe error:[Parent 1296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12188, Chrome_ChildThread] WA1536420254721	Marionette	INFO	Stopped listening on port 4509
+[GPU 15216, Chrome_ChildThread] WARNING: pipe er
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+2, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/c1536420235650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.hdJY4XaSpoTA"
+1536420238602	Marionette	INFO	Listening on port 4631
+1536420238981	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536420238999	Marionette	DEBUG	[6442450945] Frame script loaded
+1536420239001	Marionette	DEBUG	[6442450945] Frame script registered
+1536420239007	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536420241343	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536420242671	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536420250511	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536420250764	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 17708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17708, Chrome_Chi[Parent 16964, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1536420265075	Marionette	INFO	Stopped listening on port 4631
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536420350202	geckodriver	INFO	geckodriver 0.21.0
+1536420350208	geckodriver	INFO	Listening on 127.0.0.1:4682
+1536420353243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.T6rgG3I9fGPs"
+1536420356738	Marionette	INFO	Listening on port 4690
+1536420357060	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536420357079	Marionette	DEBUG	[6442450945] Frame script loaded
+1536420357080	Marionette	DEBUG	[6442450945] Frame script registered
+1536420357088	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536420359758	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536420361606	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536420365118	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536420365358	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 13672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18420, Chrome[Parent 13672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17892, Chrome_ChildThread[Parent 13672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9200, Chrome_ChildThr1536420405346	Marionette	INFO	Stopped listening on port 4690
+[GPU 14168, Chrome_ChildThread] WARNI
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1536503254525	geckodriver	INFO	geckodriver 0.21.0
+1536503254530	geckodriver	INFO	Listening on 127.0.0.1:9234
+1536503257544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.b5lVzbWJJdEo"
+1536503260475	Marionette	INFO	Listening on port 9244
+1536503260759	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536503260790	Marionette	DEBUG	[6442450945] Frame script loaded
+1536503260791	Marionette	DEBUG	[6442450945] Frame script registered
+1536503260798	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536503262214	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536503263370	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536503264346	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.facebook.com/Fund4Rich/videos/267834297120845/
+1536503267122	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 16600, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13340, Chrom[Parent 16600, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/[Parent 16600, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15960, Chrome_Ch1536503300713	Marionette	INFO	Stopped listening on port 9244
+[GPU 11320, Chrome_ChildThread
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
