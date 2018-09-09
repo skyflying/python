@@ -1,0 +1,9 @@
+1536503786888	geckodriver	INFO	geckodriver 0.21.0
+1536503786894	geckodriver	INFO	Listening on 127.0.0.1:9442
+1536503789930	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "E:\\temp\\rust_mozprofile.lim393RMLB9W"
+[GFX1-]: GFX: D3D11 detected a device reset in Present
+[GFX1-]: D3D11 swap chain failed to present: 0x887a0005
+[GFX1-]: D3D11 swap chain failed to present: 0x887a0005
+[GFX1-]: D3D11 swap chain failed to present: 0x887a0005
+[GFX1-]: D3D11 swap chain failed to present: 0x887a0005
+[GFX1-]: D3D11 swap chain failed to present: 0x887a0005
