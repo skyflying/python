@@ -21,7 +21,8 @@ if not layer:
 
 a1= u"住宅"
 a1=a1.decode('utf8').encode('ascii')
-print a1
+a2=u"住"
+a2=a2.decode('utf8').encode('ascii')
 iter = layer.getFeatures()
 for feature in iter:
 	# retrieve every feature with its geometry and attributes
@@ -49,8 +50,5 @@ for feature in iter:
 	# 表單
 	print attrs[3]
 	if a1 in attrs[3]:
-		attrs[15]="test"
-		print "test"
-	if attrs[3].find(a1)==-1:
-		attrs[15]="test"
+		attrs[17]=u"住"
 		print "test"
