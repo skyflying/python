@@ -1,19 +1,22 @@
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
+
 import shapefile 
+
+
 
 sf = shapefile.Reader("D:/data/48_d.shp", encoding='utf-8')
 w =  shapefile.Writer()
-w.autoBalance = 1
+#w.autoBalance = 1
 records = sf.records()
 fields = sf.fields
 
+
 field_names = [field[0] for field in fields] 
 # construction of a dctionary field_name:value  
-
-
-
 i=0
 for r in  sf.records():
     if '部分'.encode() in r[3]:
@@ -35,7 +38,7 @@ for r in  sf.records():
          r[17]='其他'
          records[i]=r
     i=i+1
-#zoning distinguish
+
 
 
 
@@ -51,18 +54,22 @@ for row in records:
 
 
 
+#copy shapes
 geom = sf.shapes()
 
 for feature in geom:
     # if there is only one part
 	if len(feature.parts) == 1:
-        
+        # create empty list to store all the coordinates
 		poly_list = []
         # get each coord that makes up the polygon
 		for coords in feature.points:
 			x, y = coords[0], coords[1]
-           	poly_coord = [x,y]
-           	poly_list.append(poly_coord)
+           # put the coord into a list structure
+			poly_coord = [x,y]
+           # append the coords to the polygon list
+			poly_list.append(poly_coord)
+			# add the geometry to the shapefile.
 		w.poly(parts=[poly_list])
 	else:
         # append the total amount of points to the end of the parts list
@@ -87,8 +94,10 @@ for feature in geom:
 			while coord_count < end_point:
 				for coords in feature.points[coord_count:end_point]:
 					x, y = coords[0], coords[1]
-                    poly_coord = [x,y ]
-                  	part_list.append(poly_coord)
+                    # put the coord into a list structure
+					poly_coord = [x,y ]
+                    # append the coords to the part list
+					part_list.append(poly_coord)
 					coord_count = coord_count + 1
         # append the part to the poly_list
 		poly_list.append(part_list)
@@ -96,11 +105,15 @@ for feature in geom:
     # add the geometry to to new file
 	w.poly(parts=poly_list)
 	
-
+	
 w.save('D:/data/48_d_test.shp')
-
 
 ws = shapefile.Reader("D:/data/48_d_test.shp")
 records_test = ws.records()
 fields_test = ws.fields
 shpaes_test = ws.shapes()
+
+
+        
+
+
