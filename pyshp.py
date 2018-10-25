@@ -1,3 +1,5 @@
+
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 
@@ -6,7 +8,7 @@ import shapefile
 
 
 
-sf = shapefile.Reader("G:/test/COUNTY_MOI_1070516.shp")
+sf = shapefile.Reader("D:/data/48_d.shp", encoding='utf-8')
 w =  shapefile.Writer()
 w.autoBalance = 1
 
@@ -18,10 +20,24 @@ field_names = [field[0] for field in fields]
 # construction of a dctionary field_name:value  
 i=0
 for r in  sf.records():
-    if '連江' in r[2]:
-         r[3]='test'
+    if '部分'.encode() in r[3]:
+        r[17]='其他'
+        records[i]=r
+    elif '住宅'.encode() in r[3]:
+         r[17]='住'
          records[i]=r
-         #w.record(*r)           
+    elif '商業'.encode() in r[3]:
+         r[17]='商'
+         records[i]=r
+    elif '工業'.encode() in r[3]:
+         r[17]='工'
+         records[i]=r
+    elif '農業'.encode() in r[3]:
+         r[17]='農'
+         records[i]=r
+    else:
+         r[17]='其他'
+         records[i]=r
     i=i+1
     
 
@@ -36,60 +52,56 @@ geom = sf.shapes()
 
 for feature in geom:
     # if there is only one part
-    if len(feature.parts) == 1:
+	if len(feature.parts) == 1:
         # create empty list to store all the coordinates
-        poly_list = []
+		poly_list = []
         # get each coord that makes up the polygon
-    for coords in feature.points:
-           x, y = coords[0], coords[1]
-           # tranform the coord
-           new_x, new_y = transform(input_projection, output_projection, x, y)
+	for coords in feature.points:
+		x, y = coords[0], coords[1]
            # put the coord into a list structure
-           poly_coord = [float(new_x), float(new_y)]
+		poly_coord = [x,y]
            # append the coords to the polygon list
-           poly_list.append(poly_coord)
-       # add the geometry to the shapefile.
-       w.poly(parts=[poly_list])
-    else:
+		poly_list.append(poly_coord)
+        # add the geometry to the shapefile.
+		w.poly(parts=[poly_list])
+	else:
         # append the total amount of points to the end of the parts list
-        feature.parts.append(len(feature.points))
+		feature.parts.append(len(feature.points))
         # enpty list to store all the parts that make up the complete feature
-        poly_list = []
+		poly_list = []
         # keep track of the part being added
-        parts_counter = 0
+		parts_counter = 0
 
         # while the parts_counter is less than the amount of parts
-        while parts_counter < len(feature.parts) - 1:
+		while parts_counter < len(feature.parts) - 1:
             # keep track of the amount of points added to the feature
-            coord_count = feature.parts[parts_counter]
+			coord_count = feature.parts[parts_counter]
             # number of points in each part
-            no_of_points = abs(feature.parts[parts_counter] - feature.parts[parts_counter + 1])
+			no_of_points = abs(feature.parts[parts_counter] - feature.parts[parts_counter + 1])
             # create list to hold individual parts - these get added to poly_list[]
-            part_list = []
+			part_list = []
             # cut off point for each part
-            end_point = coord_count + no_of_points
+			end_point = coord_count + no_of_points
 
             # loop through each part
-            while coord_count < end_point:
-                for coords in feature.points[coord_count:end_point]:
-                    x, y = coords[0], coords[1]
-                    # tranform the coord
-                    new_x, new_y = transform(input_projection, output_projection, x, y)
+			while coord_count < end_point:
+				for coords in feature.points[coord_count:end_point]:
+					x, y = coords[0], coords[1]
                     # put the coord into a list structure
-                    poly_coord = [float(new_x), float(new_y)]
+					poly_coord = [x,y ]
                     # append the coords to the part list
-                    part_list.append(poly_coord)
-                    coord_count = coord_count + 1
+					part_list.append(poly_coord)
+					coord_count = coord_count + 1
         # append the part to the poly_list
-        poly_list.append(part_list)
-        parts_counter = parts_counter + 1
+		poly_list.append(part_list)
+		parts_counter = parts_counter + 1
     # add the geometry to to new file
-    w.poly(parts=poly_list)
+	w.poly(parts=poly_list)
 
 
 
-w.save('G:/test/test.dbf')
+w.save('D:/data/48_d_test.shp')
 
-ws = shapefile.Reader("G:/test/COUNTY_MOI_1070516.dbf")
+ws = shapefile.Reader("D:/data/48_d_test.shp")
 records_test = ws.records()
 fields_test = ws.fields
