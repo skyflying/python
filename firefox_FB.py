@@ -9,7 +9,7 @@ import re
 
 
 
-driver = webdriver.Firefox(executable_path=r'C:\Program Files (x86)\Microsoft Visual Studio\Shared\Anaconda3_64\Lib\site-packages\selenium\webdriver\firefox\geckodriver.exe')  # 建立 driver 物件
+driver = webdriver.Firefox(executable_path=r'E:\software\anaconda3\Lib\site-packages\selenium\webdriver\firefox\geckodriver.exe')  # 建立 driver 物件
 driver.get('https://www.facebook.com/Fund4Rich/videos/267834297120845/')  # 連線至指定的網頁
 
 
