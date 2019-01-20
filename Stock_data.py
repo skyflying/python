@@ -10,6 +10,7 @@ import pandas as pd
 
 
 
+
 url = 'http://www.twse.com.tw/fund/BFI82U'
 list_req = requests.get(url)
 soup = BeautifulSoup(list_req.content, "html.parser")
